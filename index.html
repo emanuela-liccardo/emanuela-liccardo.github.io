@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="EN">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pokestorie</title>
+    <meta name="description" content="Pokemon shop store">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+<!--cookies-->
+<div class="cookieBox" id="cookieBox">
+  <div id="consentContent">
+    <header id="consentHeader">We value your privacy</header>
+
+    <p>
+       We use cookies to make our website work smoothly and to improve your experience. 
+       <br> Essential cookies are always enabled, but you can choose whether to allow the others.
+    </p>
+
+    <div class="button">
+      <button id="acceptCookies" class="consentButton">Accept Cookies</button>
+      <button id="rejectCookies" class="rejectButton">Reject</button>
+    </div>
+  </div>
+</div>
+
+
+<!--navbar-->
+<nav class="navbar">
+    <div class="nav-container">
+      <a href="/" class="navbar-brand">
+      <img src="./imgs/pokestorie logo.png" alt="Pokestorie logo" class="nav-logo"> 
+      </a>
+    </div>
+
+    <div class="nav-links">
+        <a href="#home-page">Home Page</a>
+        <a href="#shop-page">Shop Page</a>
+        <a href="#about-page">About Page</a>
+        <a href="#find-us">Find us</a>
+        <img src="./imgs/shopping-cart-icon.png" alt="Shopping cart" class="cart-icon">
+    </div>
+</nav>
+
+<!--hero section-->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Welcome to <span class="highlight">PokeStorie</span></h1>
+    <p>Discover the world of Pokéstorie –– adventures, legends and trainers from every region.</p>
+    <button id="open-login" class="hero-btn">Log In</button>
+  </div>
+</section>
+
+<!--login section-->
+<section class="login-overlay" id="log-in">
+<div class="login-container">
+  <span id="close-login" class="close-btn">&times;</span>
+    <h2>Log In</h2>
+    <form class="login-form">
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Enter your password" required>
+      <button type="submit" class="login-btn">Log In</button>
+    </form>
+    <p class="signup-text">Don't have an account? <a href="#">Sign up</a></p>
+  </div>
+</section>
+
+<!--homepage-->
+<section class="featured-products" id="home-page">
+  <h2>Best Sellers</h2>
+
+  <div class="product-grid">
+    <div class="product">
+      <img src="imgs/charizard-ex-215-197.jpg" alt="Card 1">
+      <p class="product-name">Charizard EX 215/197 - Obsidian Flames</p>
+      <p class="price">€12.00</p>
+      <button class="product-button">Add to cart</button>
+    </div>
+
+    <div class="product">
+      <img src="imgs/pikachu.jpg" alt="Card 2">
+      <p class="product-name">Pikachu VMAX (SWSH 286) - Black Star Promos</p>
+      <p class="price">€29.30</p>
+      <button class="product-button">Add to cart</button>
+    </div>
+
+    <div class="product">
+      <img src="imgs/Bisharp BLK 143:086.jpg" alt="Card 3">
+      <p class="product-name">Bisharp BLK 143/086 - Black Bolt</p>
+      <p class="price">€9.30</p>
+      <button class="product-button">Add to cart</button>
+    </div>
+
+    <div class="product">
+      <img src="imgs/Golurk BLK 123-086.jpg" alt="Card 4">
+      <p class="product-name">Golurk BLK 123/086 - Black Bolt</p>
+      <p class="price">€7.20</p>
+      <button class="product-button">Add to cart</button>
+    </div>
+  </div>
+</section>
+
+<!--video section-->
+<section class="video-section">
+  <h2>Check Out How To Start Collecting Pokémon Cards!</h2>
+<iframe width="560" 
+height="315" 
+src="https://www.youtube.com/embed/VByWdqL-hYE?si=9cdTKry-I1sL04_I" 
+title="YouTube video player" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+referrerpolicy="strict-origin-when-cross-origin" 
+allowfullscreen>
+</iframe>
+</section>
+
+<!--shop page-->
+<section class="shop-page-section" id="shop-page">
+  <h2>Shop Pokémon cards</h2>
+  <p>Explore our selection of rare, EX, VMAX and collectible cards!</p>
+
+  <div class="carousel-container">
+
+    <button class="prev">&lt;</button>
+
+    <div class="carousel-track">
+
+      <!-- slide1 -->
+      <div class="carousel-slide">
+        <div class="product">
+          <img src="imgs/kingdra-svp-131.jpg" alt="Card 4">
+          <p class="product-name">Kingdra SVP 131 - Shrouded Fable</p>
+          <p class="price">€44.90</p>
+          <button class="product-button">Add to cart</button>
+        </div>
+
+        <div class="product">
+          <img src="imgs/mega-latias-181-132-mega-evolution.jpg" alt="Card 5">
+          <p class="product-name">Mega Latios EX Meg 181/132 - Megaevolution</p>
+          <p class="price">€129.70</p>
+          <button class="product-button">Add to cart</button>
+        </div>
+
+        <div class="product">
+          <img src="imgs/magikarp-203-193.jpg" alt="Card 6">
+          <p class="product-name">Magikarp PAL 203/193 - Paldean Evolutions</p>
+          <p class="price">€190.10</p>
+          <button class="product-button">Add to cart</button>
+        </div>
+      </div>
+
+      <!-- slide2 -->
+      <div class="carousel-slide">
+        <div class="product">
+          <img src="imgs/Latios & Latias GX 060_095 Ultra Rare Tag Bolt.jpg" alt="Card 7">
+          <p class="product-name">Latios & Latias GX - Tag Team 060/095 sm9</p>
+          <p class="price">€25.80</p>
+          <button class="product-button">Add to cart</button>
+        </div>
+
+        <div class="product">
+          <img src="imgs/keldeo-ex-167-086.jpg" alt="Card 8">
+          <p class="product-name">Keldeo EX WHT 167/086 - White Flare</p>
+          <p class="price">€44.85</p>
+          <button class="product-button">Add to cart</button>
+        </div>
+
+        <div class="product">
+          <img src="imgs/Flareon ex SAR 202_187 sv8a Terastal Festival ex Japanese.jpg" alt="Card 9">
+          <p class="product-name">Flareon EX SAR 202/187 - Terastal Festival</p>
+          <p class="price">€45.05</p>
+          <button class="product-button">Add to cart</button>
+        </div>
+      </div>
+
+      <!-- slide3 -->
+      <div class="carousel-slide">
+        <div class="product">
+          <img src="imgs/Mega-Gardevoir-EX (RC31) - Generations - Holo .jpg" alt="Card 10">
+          <p class="product-name">Mega Gardevoir EX RC31 - Generations</p>
+          <p class="price">€69.71</p>
+          <button class="product-button">Add to cart</button>
+        </div>
+
+        <div class="product">
+          <img src="imgs/typhlosion-di-armonio.jpg" alt="Card 11">
+          <p class="product-name">Typhlosion 190/182 - Destined Rivals</p>
+          <p class="price">€66.70</p>
+          <button class="product-button">Add to cart</button>
+        </div>
+      </div>
+
+    </div> 
+
+    <button class="next">&gt;</button>
+
+  </div> 
+</section>
+
+
+<!--about page-->
+<section class="about-page-section" id="about-page">
+  <h2>About Pokestorie</h2>
+  <div class="about-content">
+    <p>
+      We are a small team of five friends brought together by one thing: a shared love for Pokémon cards. What began as a simple weekend hobby, quickly turned into 
+      a mission to find rare cards, nostalgic favourites and  new releases for collectors of all ages.
+    </p>
+
+    <p>
+      You can usually find the Pokestorie team travelling across local flea markets. Every card we sell has a story behind it: a traded treasure, a lucky discovery or the missing piece of someone’s dream collection.
+    </p>
+
+    <p>
+      Here, you can browse some of Pokemon's best sellers, learn more about card collecting and follow our journey as we grow our community one card at a time.
+    </p>
+
+    <p>
+      Whether you're a seasoned collector or just getting started, Pokestorie is here to help you discover your next favourite card.
+    </p>
+  </div>
+</section>
+
+<!--find us-->
+<section class="find-us-section" id="find-us">
+  <h2>&#128205 Find us</h2>
+<div class="find-us-container">
+  <div class="find-us-info">
+  <p>You can find us at Castano Primo's flea market next week!</p>
+  <p>Check the 2025/26 schedule here:<br>
+    <a href="fleamarket-dates.pdf"> Click here </a>
+  </p>
+  </div>
+  <div class="find-us-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.042100055878!2d8.777859240371557!3d45.54947862786563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786f5e3c0af5e19%3A0xdef288a7c3cc0bf1!2sMercatino%20delle%20pulci%20Castano%20Primo!5e0!3m2!1sit!2sit!4v1763229218202!5m2!1sit!2sit" 
+    width="600" 
+    height="450" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</div>
+</section>
+
+<!--footer-->
+<footer class="pokestorie-footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <img src="imgs/pokestorie logo.png" class="footer-logo" alt="Pokestorie logo">
+      <p class="footer-desc">
+        PokéStorie: your destination for Pokémon cards, adventures and collectors. </p>
+      <p class="footer-address">
+        Milan, Italy<br>
+        contact@pokestorie.com </p>
+    </div>
+
+    <div class="footer-section">
+      <h3>Explore</h3>
+      <ul>
+        <li><a href="#home-page">Home</a></li>
+        <li><a href="#shop-page">Shop</a></li>
+        <li><a href="#about-page">About</a></li>
+        <li><a href="#find-us">Find Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Information</h3>
+      <ul>
+        <li><a href="#">Shipping</a></li>
+        <li><a href="#">Returns</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">FAQs</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Follow Us</h3>
+      <a href="https://www.instagram.com/_pokestorie/" class="insta-link" target="_blank"> Instagram</a>
+      <a href="https://www.vinted.it/member/196319329" class="vinted-link" target="_blank">Vinted</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 PokéStorie — All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
