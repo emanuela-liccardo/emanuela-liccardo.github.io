@@ -116,7 +116,6 @@ html, body {
   height: 32px;         
   width: auto;
   cursor: pointer;
-  transition: 0.2s ease;
   margin-left: 10px;     
 }
 
