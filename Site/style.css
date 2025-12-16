@@ -126,7 +126,7 @@ html, body {
   display: flex; 
   justify-content: center;
   align-items: center;
-  height: 90vh; /* view point*/
+  height: 90vh; /* takes up 90% of the viewport height*/
   padding: 0 20px;
 }
 
